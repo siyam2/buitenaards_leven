@@ -1,6 +1,14 @@
 import streamlit as st
 import math
 
+# Verberg de footer en de branding
+st.markdown("""
+    <style>
+    footer {visibility: hidden;}
+    header {visibility: hidden;}
+    .css-ffhzg2 {display: none;}  # Verbergt de header voor login-informatie
+    </style>
+""", unsafe_allow_html=True)
 
 # Zet de instellingen voor de pagina
 st.set_page_config(
