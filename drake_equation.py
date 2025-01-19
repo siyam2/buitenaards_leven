@@ -1,8 +1,11 @@
 import streamlit as st
 import math
 
+# Zet het icoon en de titel voor de app
+st.set_page_config(page_title="Zoeken naar buitenaards leven 🌌", page_icon="🌌")
+
 # Titel en introductie
-st.title("Zoeken naar buitenaards leven")
+st.title("Zoeken naar buitenaards leven 🌌")
 
 # Tabbladen voor uitleg en simulatie
 tab1, tab2, tab3 = st.tabs(["Drake Uitleg", "Sterren en Leven Simulator", "Atmosferische Data en Leven"])
