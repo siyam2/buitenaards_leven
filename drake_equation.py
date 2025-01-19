@@ -12,10 +12,11 @@ st.markdown("""
     <style>
     footer {visibility: hidden;}
     header {visibility: hidden;}
-    .css-ffhzg2 {display: none;}  # Verbergt de header voor login-informatie
-    .css-1ls7h9h {visibility: hidden;}  # Verbergt de 'Made with Streamlit' tekst rechts onderaan
+    .css-1j4l4p8 {visibility: hidden;}  # Verbergt de 'Made with Streamlit' text
+    .css-1l7k7sb {visibility: hidden;}  # Verbergt de Streamlit logo en tekst onderaan
     </style>
 """, unsafe_allow_html=True)
+
 
 
 # Titel en introductie
