@@ -16,13 +16,6 @@ st.set_page_config(
     page_icon="🌌", 
     initial_sidebar_state="collapsed",  # De zijbalk is standaard gesloten
 )
-# Verberg de footer
-st.markdown("""
-    <style>
-    footer {visibility: hidden;}
-    </style>
-""", unsafe_allow_html=True)
-
 
 # Titel en introductie
 st.title("Zoeken naar buitenaards leven 🌌")
