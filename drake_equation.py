@@ -1,11 +1,20 @@
 import streamlit as st
 import math
-import streamlit as st
 
-# Zet het icoon, titel en de zijbalkinstellingen
-st.set_page_config(page_title="Zoeken naar buitenaards leven 🌌", 
-                   page_icon="🌌", 
-                   initial_sidebar_state="collapsed")  # Dit zorgt ervoor dat de zijbalk gesloten is
+
+# Zet de instellingen voor de pagina
+st.set_page_config(
+    page_title="Zoeken naar buitenaards leven 🌌", 
+    page_icon="🌌", 
+    initial_sidebar_state="collapsed",  # De zijbalk is standaard gesloten
+)
+# Verberg de footer
+st.markdown("""
+    <style>
+    footer {visibility: hidden;}
+    </style>
+""", unsafe_allow_html=True)
+
 
 # Titel en introductie
 st.title("Zoeken naar buitenaards leven 🌌")
