@@ -8,14 +8,15 @@ st.set_page_config(
     initial_sidebar_state="collapsed",  # De zijbalk is standaard gesloten
 )
 
-# Verberg de footer en de branding
 st.markdown("""
     <style>
     footer {visibility: hidden;}
     header {visibility: hidden;}
     .css-ffhzg2 {display: none;}  # Verbergt de header voor login-informatie
+    .css-1ls7h9h {visibility: hidden;}  # Verbergt de 'Made with Streamlit' tekst rechts onderaan
     </style>
 """, unsafe_allow_html=True)
+
 
 # Titel en introductie
 st.title("Zoeken naar buitenaards leven 🌌")
