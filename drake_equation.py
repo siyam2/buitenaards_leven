@@ -1,8 +1,11 @@
 import streamlit as st
 import math
+import streamlit as st
 
-# Zet het icoon en de titel voor de app
-st.set_page_config(page_title="Zoeken naar buitenaards leven 🌌", page_icon="🌌")
+# Zet het icoon, titel en de zijbalkinstellingen
+st.set_page_config(page_title="Zoeken naar buitenaards leven 🌌", 
+                   page_icon="🌌", 
+                   initial_sidebar_state="collapsed")  # Dit zorgt ervoor dat de zijbalk gesloten is
 
 # Titel en introductie
 st.title("Zoeken naar buitenaards leven 🌌")
