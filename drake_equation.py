@@ -10,10 +10,8 @@ st.set_page_config(
 
 st.markdown("""
     <style>
-    footer {visibility: hidden;}
-    header {visibility: hidden;}
-    .css-1j4l4p8 {visibility: hidden;}  # Verbergt de 'Made with Streamlit' text
-    .css-1l7k7sb {visibility: hidden;}  # Verbergt de Streamlit logo en tekst onderaan
+    footer, .css-1l7k7sb, .css-1j4l4p8, .css-16my1d7, .css-1t1g24b {visibility: hidden;}  /* Verbergt footer, logo en tekst */
+    header {visibility: hidden;} /* Verbergt header */
     </style>
 """, unsafe_allow_html=True)
 
