@@ -1,5 +1,16 @@
 import streamlit as st
 import math
+import os
+
+# Fetch the GitHub token from Streamlit secrets
+github_token = os.getenv("GITHUB_TOKEN")
+
+# Use the token to construct the repository URL
+repo_url = f"https://{github_token}@github.com/username/repository.git"
+
+# Example usage in your app
+print("Repository URL:", repo_url)
+
 
 
 # Zet de instellingen voor de pagina
